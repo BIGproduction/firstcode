@@ -13,7 +13,7 @@ int main() {
     int some = len_name;
     int sum = len_group + len_hostname;
 
-    printf("%s\t{%d}\n%s\t%s\t{%d}\t\n",
+    printf("%s\t{%d}\n%s\t%s\t{%d}\n",
            name, some,
            group, hostname, sum);
     return 0;
